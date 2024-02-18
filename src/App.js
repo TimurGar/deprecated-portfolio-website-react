@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import './style.css';
 import Header from './Header.js';
 import AboutMe from './AboutMe.js';
@@ -7,8 +7,8 @@ import Cat from './CatGIF.js';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="main-container">
+      <Header className='head-container'/>
       <LinkButtons />
       <AboutMe />
       {/* <header className="App-header"></header>  */}
